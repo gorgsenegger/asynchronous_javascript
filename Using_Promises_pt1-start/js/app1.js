@@ -12,6 +12,7 @@ let asyncFunction = function() {
 let asyncFunction2 = function() {
     return new Promise(function(resolve, reject) {
         setTimeout(function() {
+            // reject("kaputt");
             resolve("asyncFunction2 is done.");
         }, 3000);
     });
